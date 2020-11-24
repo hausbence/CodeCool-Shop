@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Codecool shop (sprint 2)
 
 ## Story
