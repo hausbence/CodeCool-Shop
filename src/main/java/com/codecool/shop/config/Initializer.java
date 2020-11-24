@@ -19,7 +19,7 @@ import java.sql.SQLException;
 @WebListener
 public class Initializer implements ServletContextListener {
 
-
+//wqe
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         ProductDao productDataStore = ProductDaoMem.getInstance();
@@ -57,7 +57,7 @@ public class Initializer implements ServletContextListener {
         productCategoryDataStore.add(phone);
         productCategoryDataStore.add(console);
 
-        //setting up products and printing it
+        //setting up products and printing it123
         productDataStore.add(new Product("Amazon Fire", 49.9f, "USD", "Amazon tablet with fantastic price.", tablet, amazon));
         productDataStore.add(new Product("Lenovo IdeaPad", 479, "USD", "One of the most powerful tablets.", tablet, lenovo));
         productDataStore.add(new Product("Samsung Galaxy Tab S6", 429, "USD", "Samsung's latest tablet", tablet, amazon));
